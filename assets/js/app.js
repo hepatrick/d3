@@ -88,6 +88,7 @@ d3.csv("assets/data/data.csv").then(function(temp_data) {
         });
     chartGroup.call(tooltip);
     
+    // Add label
     chartGroup.append("text")
         .attr("transform", "rotate(-90)")
         .attr("y", 0 - margin.left + 50 )
